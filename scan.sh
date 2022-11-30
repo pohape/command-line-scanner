@@ -12,7 +12,7 @@ fi
 
 if [ -z "$1" ]
 then
-    echo "Please specify the output file path."
+    echo "Please specify the output file path." >&2
     exit 1
 fi
 
@@ -23,7 +23,6 @@ then
     echo "No scanning device found. Please make sure you are installed the correct drivers."
     exit 1
 fi
-
 
 echo "Using device $DEVICE"
 
