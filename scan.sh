@@ -24,7 +24,7 @@ then
     exit 1
 fi
 
-echo "Using device $DEVICE"
+echo "Using the device $DEVICE"
 
 TEMP_TIFF=$(mktemp --suffix=.tiff)
 echo "Scanning to a temp file $TEMP_TIFF"
