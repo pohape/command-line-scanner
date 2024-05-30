@@ -2,7 +2,7 @@
 
 ## What is it
 
-A simple tool to scan documents using the LINUX command line.
+A simple tool to scan documents using the LINUX command line. Automatically detects scanners and scans documents into JPG, PNG, or PDF formats.
 
 **imagemagick** must be installed on your system. Drivers for your scanner must be installed also!
 
